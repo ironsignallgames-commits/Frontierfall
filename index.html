@@ -12,7 +12,7 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="Frontierfall home">
-      <img src="logo.png" alt="Frontierfall logo" class="brand-logo" />
+      <img src="logo.png" alt="Frontierfall FF radar crest" class="brand-logo" />
       <div class="brand-text">
         <strong>FRONTIERFALL</strong>
         <span>Survive • Explore • Reclaim</span>
@@ -28,18 +28,20 @@
   </header>
 
   <main id="top">
-    <section class="hero">
-      <div class="hero-image-wrap">
-        <img src="banner.png" alt="Frontierfall banner art" class="hero-image" />
-        <div class="hero-overlay"></div>
-      </div>
-      <div class="hero-copy shell">
+    <section class="hero-banner" aria-label="Frontierfall key art">
+      <img src="banner.png" alt="Frontierfall ranger and companion overlooking the frontier" />
+    </section>
+
+    <section class="hero-intro shell">
+      <div class="hero-intro-copy">
         <span class="eyebrow">A FRONTIER EXTRACTION RPG</span>
         <h1>Survive. Scavenge. Extract.</h1>
         <p>
           Enter dangerous territories, build your Ranger, gear up your companion,
           complete objectives and fight your way back to extraction with your haul intact.
         </p>
+      </div>
+      <div class="hero-intro-actions">
         <div class="hero-actions">
           <a class="button" href="#play">Play Frontierfall</a>
           <a class="button button-secondary" href="#screens">View Screens</a>
@@ -54,7 +56,7 @@
     </section>
 
     <section class="stat-strip shell">
-      <div><strong>4</strong><span>Starter worlds shown</span></div>
+      <div><strong>4</strong><span>Distinct territories</span></div>
       <div><strong>20m</strong><span>Expedition runs</span></div>
       <div><strong>3</strong><span>Companion paths</span></div>
       <div><strong>1</strong><span>Goal: extract alive</span></div>
@@ -86,8 +88,11 @@
     </section>
 
     <section class="section shell spotlight">
-      <div class="spotlight-card">
-        <img src="frontier-brief.jpg" alt="Frontier Brief home screen" />
+      <div class="spotlight-card image-panel">
+        <button class="image-button" type="button" data-full="frontier-brief.jpg" data-caption="Frontier Brief command hub">
+          <img src="frontier-brief.jpg" alt="Frontier Brief home screen" class="fit-image" />
+          <span class="zoom-badge">↗ Enlarge</span>
+        </button>
       </div>
       <div class="spotlight-copy">
         <span class="eyebrow">FRONTIER COMMAND</span>
@@ -111,28 +116,40 @@
       </div>
       <div class="world-grid">
         <article class="world-card">
-          <img src="world-flooded.jpg" alt="Flooded Wilds gameplay" class="world-image" />
+          <button class="image-button" type="button" data-full="world-flooded.jpg" data-caption="Flooded Wilds gameplay">
+            <img src="world-flooded.jpg" alt="Flooded Wilds gameplay" class="world-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="world-copy">
             <h3>Flooded Wilds</h3>
             <p>Wetlands, overgrowth and old frontier sites buried beneath a dangerous surface.</p>
           </div>
         </article>
         <article class="world-card">
-          <img src="world-frozen.jpg" alt="Frozen Expanse gameplay" class="world-image" />
+          <button class="image-button" type="button" data-full="world-frozen.jpg" data-caption="Frozen Expanse gameplay">
+            <img src="world-frozen.jpg" alt="Frozen Expanse gameplay" class="world-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="world-copy">
             <h3>Frozen Expanse</h3>
             <p>Cold visibility, pale terrain and exposed signal sites surrounded by whiteout pressure.</p>
           </div>
         </article>
         <article class="world-card">
-          <img src="world-ashfall.jpg" alt="Ashfall Basin gameplay" class="world-image" />
+          <button class="image-button" type="button" data-full="world-ashfall.jpg" data-caption="Ashfall Basin gameplay">
+            <img src="world-ashfall.jpg" alt="Ashfall Basin gameplay" class="world-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="world-copy">
             <h3>Ashfall Basin</h3>
             <p>Scorched ground, hostile fauna and burning regions shaped by heat and instability.</p>
           </div>
         </article>
         <article class="world-card">
-          <img src="world-hollow.jpg" alt="The Hollow gameplay" class="world-image" />
+          <button class="image-button" type="button" data-full="world-hollow.jpg" data-caption="The Hollow gameplay">
+            <img src="world-hollow.jpg" alt="The Hollow gameplay" class="world-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="world-copy">
             <h3>The Hollow</h3>
             <p>Glitch-like interference zones, resonance objectives and strange frontier anomalies.</p>
@@ -144,26 +161,35 @@
     <section id="screens" class="section shell">
       <div class="section-heading compact">
         <span class="eyebrow">SYSTEMS & SCREENSHOTS</span>
-        <h2>Starter gallery</h2>
-        <p>A first set of real in-game screens covering your companion systems and armoury flow.</p>
+        <h2>Inside Frontierfall</h2>
+        <p>Real in-game screens covering companion progression, weapons and armour systems. Click any image to inspect it full size.</p>
       </div>
       <div class="gallery-grid">
-        <article class="gallery-card tall">
-          <img src="companion-bay.jpg" alt="Companion Bay screenshot" />
+        <article class="gallery-card">
+          <button class="image-button" type="button" data-full="companion-bay.jpg" data-caption="Companion Bay">
+            <img src="companion-bay.jpg" alt="Companion Bay screenshot" class="gallery-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="gallery-copy">
             <h3>Companion Bay</h3>
             <p>Bond level, gear slots, skill trees and stance selection for live field identity.</p>
           </div>
         </article>
         <article class="gallery-card">
-          <img src="armoury-weapons.jpg" alt="Armoury weapons screenshot" />
+          <button class="image-button" type="button" data-full="armoury-weapons.jpg" data-caption="Armoury — Weapons">
+            <img src="armoury-weapons.jpg" alt="Armoury weapons screenshot" class="gallery-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="gallery-copy">
             <h3>Weapons</h3>
             <p>Primary/secondary selection, attachments and evolution paths.</p>
           </div>
         </article>
         <article class="gallery-card">
-          <img src="armoury-armour.jpg" alt="Armoury armour screenshot" />
+          <button class="image-button" type="button" data-full="armoury-armour.jpg" data-caption="Armoury — Armour">
+            <img src="armoury-armour.jpg" alt="Armoury armour screenshot" class="gallery-image fit-image" />
+            <span class="zoom-badge">↗ Enlarge</span>
+          </button>
           <div class="gallery-copy">
             <h3>Armour</h3>
             <p>Armour slots, discovery progression and live total survivor stats.</p>
@@ -176,9 +202,11 @@
       <span class="eyebrow">DON'T SURVIVE ALONE</span>
       <h2>Join the Frontierfall community.</h2>
       <p>Follow development, share feedback, report issues and find other Rangers.</p>
-      <div class="hero-actions center">
-        <a class="button" href="#" id="discord-link">Join Discord</a>
-        <a class="button button-secondary" href="#" id="x-link">Follow on X</a>
+      <div class="social-actions">
+        <a class="button social-button" href="#" id="discord-link" target="_blank" rel="noopener noreferrer">Join Discord</a>
+        <a class="button button-secondary social-button" href="#" id="x-link" target="_blank" rel="noopener noreferrer">Follow on X</a>
+        <a class="button button-secondary social-button" href="#" id="facebook-link" target="_blank" rel="noopener noreferrer">Facebook</a>
+        <a class="button button-secondary social-button" href="#" id="youtube-link" target="_blank" rel="noopener noreferrer">YouTube</a>
       </div>
     </section>
 
@@ -197,7 +225,7 @@
 
   <footer class="shell footer">
     <a class="brand footer-brand" href="#top">
-      <img src="logo.png" alt="Frontierfall logo" class="brand-logo footer-logo" />
+      <img src="logo.png" alt="Frontierfall FF radar crest" class="brand-logo footer-logo" />
       <div class="brand-text">
         <strong>FRONTIERFALL</strong>
         <span>Survive • Explore • Reclaim</span>
@@ -205,6 +233,14 @@
     </a>
     <p>© <span id="year"></span> Frontierfall. All rights reserved.</p>
   </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded screenshot">
+    <button class="lightbox-close" id="lightbox-close" type="button" aria-label="Close enlarged image">×</button>
+    <figure class="lightbox-content">
+      <img id="lightbox-image" src="" alt="" />
+      <figcaption id="lightbox-caption"></figcaption>
+    </figure>
+  </div>
 
   <script src="script.js"></script>
 </body>

@@ -1,21 +1,15 @@
-# Frontierfall website — branding + screenshots update
+# Frontierfall GitHub Pages update v4
 
-This version includes:
-- the updated Frontierfall banner artwork
-- a cropped Frontierfall logo for the header / favicon
-- your starter website screenshots
-- refreshed homepage layout
+This version fixes the hero readability and screenshot presentation.
 
-## Upload to GitHub
+Changes:
+- banner is now displayed cleanly with no website text over the banner artwork
+- hero copy and buttons sit beneath the banner
+- original Neon FF Radar Crest remains the website logo and favicon
+- world/system screenshots use contain rather than cover, so the image edges are no longer cropped
+- equal screenshot cards retained
+- screenshots can be clicked to open a full-screen lightbox; Escape, X, or backdrop click closes it
+- Starter Gallery renamed to Inside Frontierfall
+- Discord, X, Facebook and YouTube links retained
 
-Upload the contents of this folder to your GitHub Pages repository and overwrite the old files:
-- index.html
-- style.css
-- script.js
-- assets folder
-
-## Still to update later
-- real Discord link in script.js
-- real X link in script.js
-- real Google Play link in script.js
-- any additional screenshots or trailer/embed later
+Upload every file in this ZIP to the ROOT of the Frontierfall GitHub repository and replace the existing files.
