@@ -1,20 +1,31 @@
-# Frontierfall GitHub Pages update v4
+# Frontierfall GitHub Pages update v6
 
-This version fixes the hero readability and screenshot presentation.
+Final pre-launch website housekeeping pass.
 
-Changes:
-- banner is now displayed cleanly with no website text over the banner artwork
-- hero copy and buttons sit beneath the banner
-- original Neon FF Radar Crest remains the website logo and favicon
-- world/system screenshots use contain rather than cover, so the image edges are no longer cropped
-- equal screenshot cards retained
-- screenshots can be clicked to open a full-screen lightbox; Escape, X, or backdrop click closes it
-- Starter Gallery renamed to Inside Frontierfall
-- Discord, X, Facebook and YouTube links retained
+## Adds
+- `privacy.html` — pre-release privacy policy covering the current website/test-build setup
+- `support.html` — bug-reporting guidance and community support links
+- Open Graph metadata for Discord/Facebook/social link previews
+- X/Twitter large-image card metadata
+- Home / Support / Privacy footer navigation
 
-Upload every file in this ZIP to the ROOT of the Frontierfall GitHub repository and replace the existing files.
+## Upload to GitHub
+Upload these files into the ROOT of the existing Frontierfall repository and replace existing files when prompted:
 
+- index.html
+- style.css
+- privacy.html
+- support.html
+- README.md
 
-## V5 change
-Social buttons now include recognisable Discord, X, Facebook and YouTube brand icons.
-Upload the four new `icon-*.svg` files alongside the existing root files.
+The existing `banner.png`, `logo.png`, `favicon.png` and social SVG icons are reused.
+
+## Before Google Play public launch
+Review the privacy policy again if any of these are enabled:
+- analytics / crash reporting
+- advertising SDKs
+- cloud accounts or backend profiles
+- in-app purchases / billing
+- additional social or matchmaking providers
+
+Also add a dedicated support email later if desired.
