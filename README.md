@@ -13,3 +13,8 @@ Changes:
 - Discord, X, Facebook and YouTube links retained
 
 Upload every file in this ZIP to the ROOT of the Frontierfall GitHub repository and replace the existing files.
+
+
+## V5 change
+Social buttons now include recognisable Discord, X, Facebook and YouTube brand icons.
+Upload the four new `icon-*.svg` files alongside the existing root files.
