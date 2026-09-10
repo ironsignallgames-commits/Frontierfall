@@ -29,3 +29,7 @@ Review the privacy policy again if any of these are enabled:
 - additional social or matchmaking providers
 
 Also add a dedicated support email later if desired.
+
+
+## V6.1
+Official support email added: ironsignalgames@gmail.com
