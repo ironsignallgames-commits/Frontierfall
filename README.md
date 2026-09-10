@@ -1,49 +1,21 @@
-# Frontierfall website
+# Frontierfall website — branding + screenshots update
 
-A simple static website designed for GitHub Pages.
+This version includes:
+- the updated Frontierfall banner artwork
+- a cropped Frontierfall logo for the header / favicon
+- your starter website screenshots
+- refreshed homepage layout
 
-## Publish it on GitHub Pages
+## Upload to GitHub
 
-1. Create a new **public** repository on GitHub. A good name is `frontierfall`.
-2. Upload **index.html**, **style.css**, **script.js** and the **assets** folder into the repository.
-3. Open the repository's **Settings**.
-4. In the left menu, open **Pages**.
-5. Under **Build and deployment**, choose **Deploy from a branch**.
-6. Select the **main** branch and the **/(root)** folder, then save.
-7. GitHub will display the website URL after the deployment completes.
+Upload the contents of this folder to your GitHub Pages repository and overwrite the old files:
+- index.html
+- style.css
+- script.js
+- assets folder
 
-Your URL will normally look like:
-
-`https://YOUR-USERNAME.github.io/frontierfall/`
-
-If you instead create a repository named exactly `YOUR-USERNAME.github.io`,
-it can become your main GitHub Pages site.
-
-## Change your links
-
-Open `script.js` and replace the three `#` values:
-
-- `discord`
-- `x`
-- `play`
-
-## Add real screenshots
-
-The first version deliberately uses styled placeholders so it works immediately.
-
-When you want to add screenshots:
-1. Put image files inside `assets/`.
-2. Replace one of the `.world-image` placeholder divs in `index.html` with an `<img>` element.
-3. Ask ChatGPT if you want the exact edit done for you.
-
-## Recommended next additions
-
-- Frontierfall logo
-- Google Play URL
-- Discord invite URL
-- Gameplay trailer
-- 4 map screenshots
-- Ranger / Medic artwork
-- Companion artwork
-- Privacy Policy page
-- Contact / support page
+## Still to update later
+- real Discord link in script.js
+- real X link in script.js
+- real Google Play link in script.js
+- any additional screenshots or trailer/embed later
