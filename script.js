@@ -1,7 +1,7 @@
 document.getElementById("year").textContent = new Date().getFullYear();
 
 const LINKS = {
-  discord: "https://discord.gg/D3VPy8FqA",
+  discord: "https://discord.gg/e5gqtqHmHY",
   x: "https://x.com/frontierfall",
   facebook: "https://www.facebook.com/share/1DxeGmQL9s/",
   youtube: "https://www.youtube.com/@IrongSignallGames",
