@@ -1,0 +1,23 @@
+FRONTIERFALL — WEBSITE LAUNCH UPDATES
+
+Upload BOTH files from this ZIP into the ROOT of the GitHub repository:
+https://github.com/ironsignallgames-commits/Frontierfall
+
+1. script.js             REPLACE the existing script.js
+2. account-deletion.html ADD this new file
+
+NO index.html change is required. The updated script.js preserves the existing
+homepage and updates the live Google Play button, 'Coming to Android' text,
+and footer account deletion link automatically.
+
+After GitHub Pages has deployed, verify:
+https://ironsignallgames-commits.github.io/Frontierfall/
+https://ironsignallgames-commits.github.io/Frontierfall/account-deletion.html
+
+Google Play:
+https://play.google.com/store/apps/details?id=com.ironsignalgames.frontierfall
+
+IMPORTANT:
+The deletion webpage is a request route; it does not itself delete player
+records. You still need a verified process for deleting cloud player data
+and an in-game route for account deletion to satisfy Google Play's rules.

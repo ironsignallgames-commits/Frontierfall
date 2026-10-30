@@ -5,14 +5,38 @@ const LINKS = {
   x: "https://x.com/frontierfall",
   facebook: "https://www.facebook.com/share/1DxeGmQL9s/",
   youtube: "https://www.youtube.com/@IrongSignallGames",
-  play: "#"
+  play: "https://play.google.com/store/apps/details?id=com.ironsignalgames.frontierfall"
 };
 
 document.getElementById("discord-link").href = LINKS.discord;
 document.getElementById("x-link").href = LINKS.x;
 document.getElementById("facebook-link").href = LINKS.facebook;
 document.getElementById("youtube-link").href = LINKS.youtube;
-document.getElementById("play-link").href = LINKS.play;
+
+const playLink = document.getElementById("play-link");
+playLink.href = LINKS.play;
+playLink.setAttribute("aria-label", "Download Frontierfall from Google Play");
+
+// Refresh the site's pre-launch messaging without altering the approved page layout.
+const playSection = document.getElementById("play");
+if (playSection) {
+  const eyebrow = playSection.querySelector(".eyebrow");
+  const description = playSection.querySelector("p");
+  if (eyebrow) eyebrow.textContent = "AVAILABLE NOW ON ANDROID";
+  if (description) {
+    description.textContent =
+      "Frontierfall is live on Google Play. Download now and begin your next expedition.";
+  }
+}
+
+// Make the new account-deletion page easy to find.
+const footerLinks = document.querySelector(".footer-links");
+if (footerLinks && !footerLinks.querySelector('a[href="account-deletion.html"]')) {
+  const accountDeletion = document.createElement("a");
+  accountDeletion.href = "account-deletion.html";
+  accountDeletion.textContent = "Account deletion";
+  footerLinks.appendChild(accountDeletion);
+}
 
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightbox-image");
