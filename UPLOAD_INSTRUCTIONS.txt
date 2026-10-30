@@ -1,23 +1,25 @@
-FRONTIERFALL — WEBSITE LAUNCH UPDATES
+FRONTIERFALL — PLAY STORE WEBSITE HOTFIX — 30 OCTOBER 2026
 
-Upload BOTH files from this ZIP into the ROOT of the GitHub repository:
+Upload the files below to the ROOT of the existing GitHub repository:
 https://github.com/ironsignallgames-commits/Frontierfall
 
-1. script.js             REPLACE the existing script.js
-2. account-deletion.html ADD this new file
+1) index.html — REPLACE EXISTING (IMPORTANT: fixes all 3 PLAY buttons in HTML itself)
+2) script.js — REPLACE EXISTING (legacy redirect support and cache safe)
+3) account-deletion.html — KEEP / REPLACE ONLY IF MISSING
 
-NO index.html change is required. The updated script.js preserves the existing
-homepage and updates the live Google Play button, 'Coming to Android' text,
-and footer account deletion link automatically.
+Do not upload the enclosing ZIP as a single file. Unzip it first and upload
+these three individual files. Do not place them inside a sub-folder.
 
-After GitHub Pages has deployed, verify:
-https://ironsignallgames-commits.github.io/Frontierfall/
-https://ironsignallgames-commits.github.io/Frontierfall/account-deletion.html
+The new HTML references script.js?v=20261030-launch3 to bypass old caches.
+The following are all now direct links to the same published Google Play listing:
+* Top navigation PLAY
+* Hero PLAY FRONTIERFALL
+* Lower Google Play button
 
-Google Play:
-https://play.google.com/store/apps/details?id=com.ironsignalgames.frontierfall
+After committing, verify these links on your phone:
+Homepage: https://ironsignallgames-commits.github.io/Frontierfall/
+Deletion page: https://ironsignallgames-commits.github.io/Frontierfall/account-deletion.html
+Google Play: https://play.google.com/store/apps/details?id=com.ironsignalgames.frontierfall
 
-IMPORTANT:
-The deletion webpage is a request route; it does not itself delete player
-records. You still need a verified process for deleting cloud player data
-and an in-game route for account deletion to satisfy Google Play's rules.
+The account deletion page collects requests only; back-end deletion handling
+and an accessible in-game deletion route remain separate requirements.

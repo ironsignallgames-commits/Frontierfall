@@ -17,7 +17,13 @@ const playLink = document.getElementById("play-link");
 playLink.href = LINKS.play;
 playLink.setAttribute("aria-label", "Download Frontierfall from Google Play");
 
-// Refresh the site's pre-launch messaging without altering the approved page layout.
+// Ensure legacy in-page PLAY links also open the public Google Play listing.
+document.querySelectorAll('a[href="#play"]').forEach((link) => {
+  link.href = LINKS.play;
+  link.setAttribute("aria-label", "Download Frontierfall on Google Play");
+});
+
+// Refresh launch messaging on older cached HTML versions if necessary.
 const playSection = document.getElementById("play");
 if (playSection) {
   const eyebrow = playSection.querySelector(".eyebrow");
