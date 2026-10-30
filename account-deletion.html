@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#061116">
+  <meta name="description" content="Request deletion of your Frontierfall game account and associated data from Iron Signal Games.">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Frontierfall">
+  <meta property="og:title" content="Frontierfall Account &amp; Data Deletion">
+  <meta property="og:description" content="Request deletion of your Frontierfall game account and associated game data.">
+  <meta property="og:url" content="https://ironsignallgames-commits.github.io/Frontierfall/account-deletion.html">
+  <title>Account &amp; Data Deletion | Frontierfall</title>
+  <link rel="canonical" href="https://ironsignallgames-commits.github.io/Frontierfall/account-deletion.html">
+  <link rel="icon" type="image/png" href="favicon.png">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .deletion-actions {display:flex;flex-wrap:wrap;gap:14px;margin:24px 0 12px}
+    .deletion-link {color:var(--cyan);text-decoration:underline;text-underline-offset:3px;overflow-wrap:anywhere}
+    .deletion-steps {padding-left:1.5rem}
+    .deletion-steps li {margin-bottom:13px}
+    .deletion-steps strong,.policy-section strong {color:var(--text)}
+    .deletion-note {font-size:.95rem}
+    @media(max-width:640px){.deletion-actions .button{width:100%;text-align:center}}
+  </style>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Frontierfall home">
+      <img src="logo.png" alt="Frontierfall logo" class="brand-logo">
+      <div class="brand-text"><strong>FRONTIERFALL</strong><span>Survive • Explore • Reclaim</span></div>
+    </a>
+    <nav><a href="index.html">Home</a><a href="support.html">Support</a><a href="privacy.html">Privacy</a></nav>
+    <a class="button button-small" href="index.html#play">Play</a>
+  </header>
+  <main class="info-page shell">
+    <div class="info-hero">
+      <span class="eyebrow">IRON SIGNAL GAMES • PLAYER PRIVACY</span>
+      <h1>Delete your Frontierfall account</h1>
+      <p>Request permanent deletion of your Frontierfall game account and associated data. You can make a request even if you no longer have the game installed.</p>
+    </div>
+    <div class="policy-stack">
+      <section class="policy-section">
+        <h2>1. Send a deletion request</h2>
+        <p>Contact Iron Signal Games at <a class="deletion-link" href="mailto:ironsignalgames@gmail.com?subject=Frontierfall%20Account%20Deletion%20Request">ironsignalgames@gmail.com</a> with the subject <strong>Frontierfall Account Deletion Request</strong>.</p>
+        <div class="deletion-actions">
+          <a class="button" href="mailto:ironsignalgames@gmail.com?subject=Frontierfall%20Account%20Deletion%20Request">Email deletion request</a>
+        </div>
+        <p class="deletion-note">If the button does not launch your email app, copy the email address and send your request using your usual email service.</p>
+      </section>
+      <section class="policy-section">
+        <h2>2. Identify your Frontierfall account</h2>
+        <ol class="deletion-steps">
+          <li>Confirm that you want your <strong>Frontierfall game account and associated data permanently deleted</strong>.</li>
+          <li>Where possible, email from the Google account you connected to Frontierfall, or tell us which Google email address you used.</li>
+          <li>If you know your Ranger name or Frontier ID, you may include it to help us locate the correct save.</li>
+        </ol>
+        <p>Do <strong>not</strong> send your Google password, sign-in codes, payment card numbers or other sensitive credentials. We may need to verify that you own the account before processing deletion.</p>
+      </section>
+      <section class="policy-section">
+        <h2>3. What is removed?</h2>
+        <p>On verification and completion, we will delete your Frontierfall game account and the account-linked data controlled by Iron Signal Games, including stored account identifiers and cloud-save information such as character progression, equipment, inventory, companions and similar gameplay data where held.</p>
+        <p>Data stored locally on your phone may need to be cleared separately by clearing the app's storage or uninstalling it. Deleting Frontierfall does not delete your Google account, and Google Play billing records held by Google are subject to Google's own policies.</p>
+        <p>Certain records may need to be retained where required by law or for legitimate financial, fraud-prevention or security reasons. Any applicable exceptions will be explained when handling your request. Account deletion is permanent and game progress may not be recoverable afterwards.</p>
+      </section>
+      <section class="policy-section">
+        <h2>4. What happens next?</h2>
+        <p>Iron Signal Games will review the request, contact you if account ownership needs to be confirmed, process the account and associated data deletion, and notify you when it has been completed.</p>
+        <p>For other questions, please see <a class="deletion-link" href="support.html">Support</a> and the <a class="deletion-link" href="privacy.html">Privacy Policy</a>.</p>
+      </section>
+    </div>
+  </main>
+  <footer class="shell footer">
+    <a class="brand footer-brand" href="index.html">
+      <img src="logo.png" alt="Frontierfall logo" class="brand-logo footer-logo">
+      <div class="brand-text"><strong>FRONTIERFALL</strong><span>Survive • Explore • Reclaim</span></div>
+    </a>
+    <p>© <span id="year"></span> Frontierfall. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="index.html">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy.html">Privacy</a>
+    </div>
+  </footer>
+  <script>document.getElementById("year").textContent = new Date().getFullYear();</script>
+</body>
+</html>
